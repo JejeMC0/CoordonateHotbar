@@ -1,0 +1,13 @@
+name: CoordonateHotbar
+version: '${project.version}'
+main: fr.jeje.coordonatehotbar.CoordonateHotbar
+api-version: '1.20'
+authors: [JejeMC0]
+description: This plugin show coordonate above the hotbar
+commands:
+  coord:
+    description: Sends the current player's coordinates to everyone
+    usage: /coord
+  show-coord:
+    description: Shows the current player's saved coordinates
+    usage: /show-coord
